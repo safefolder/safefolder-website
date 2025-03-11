@@ -1,0 +1,78 @@
+
+
+.sf-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sf-section h2 {
+    font-size: 3em;
+}
+
+.sf-intro-cards {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sf-card-icon {
+    width: 128px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.sf-team-card {
+    width: 100px;
+}
+
+.sf-team-img {
+    width: 100px;
+    height: 100px
+}
+
+.sf-team-card .card-body {
+    padding: 5px;
+}
+
+.sf-team-card .card-body .card-title {
+    font-size: 1rem;
+}
+
+.sf-team-cols {
+    width: 100px;
+    margin: 10px;
+    flex: 0 0;
+}
+
+.sf-foot-line {
+    color: #ddd;
+    font-size: 1.8rem;
+}
+
+.sf-foot-line i {
+    margin-right: 4px;
+}
+
+.sf-foot-icons {
+    margin-top: 2rem;
+}
+
+.sf-foot-icons i {
+    color: #ddd;
+    font-size: 2rem;
+    background: #a0a0a0;
+    padding: 0.8rem;
+    border-radius: 40px;
+}
+
+.sf-foot-copy {
+    margin-top: 2rem;
+    color: #aaa;
+}
+
+.sf-foot-legal {
+    color: #aaa;
+}
+
+.sf-foot-legal a {
+    color: #aaa;
+}

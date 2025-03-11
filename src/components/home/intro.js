@@ -1,0 +1,156 @@
+import * as React from "react";
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import Icon from '@mui/material/Icon';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+export const EmailSubscribeForm = ({ status, message, onValidated }) => {
+  let email;
+
+  const [loading, setLoading] = React.useState(false); 
+  const [color, setColor] = React.useState('primary'); 
+  const [endIcon, setEndIcon] = React.useState(null);
+
+  const submit = () =>
+    email &&
+    email.value.indexOf("@") > -1 &&
+    onValidated({
+      EMAIL: email.value,
+    });
+
+  return (
+    <div class="mx-auto text-center">
+    <Box
+          component="form"
+          sx={{ '& > :not(style)': { m: 1, width: '35ch' } }}
+          noValidate
+          autoComplete="off"
+        >
+          {status === "sending" && <div class="mx-auto" style={{ color: "blue" }}>Sending...</div>}
+          {status === "error" && (
+            <div
+              style={{ color: "red" }}
+              class="mx-auto" 
+              dangerouslySetInnerHTML={{ __html: message }}
+            />
+          )}
+          {status === "success" && (
+            <div
+              style={{ color: "green" }} 
+              class="mx-auto"
+              dangerouslySetInnerHTML={{ __html: message }}
+            />
+          )}
+          <TextField 
+            required
+            id="input_email" 
+            label="Email" 
+            variant="outlined" 
+            inputRef={node => (email = node)} 
+            helperText="Subscribe to Newsletter to receive updates"
+          />
+          <Button 
+            id="subscribe-button"
+            variant="contained" 
+            startIcon={<Icon baseClassName="fas" className="fa-envelope" sx={{ fontSize: 30 }} />}
+            sx={{'height': '3.5rem'}} 
+            onClick={submit}
+            loading={loading}
+            color={color}
+            endIcon={endIcon}
+          >
+            Subscribe Now!
+          </Button>
+    </Box>
+    </div>
+  );
+};
+
+export const Intro = () => {
+
+  const [loading, setLoading] = React.useState(false); 
+  const [color, setColor] = React.useState('primary'); 
+  const [endIcon, setEndIcon] = React.useState(null); 
+
+  function handleSubscribeClick() { 
+      setLoading(true); 
+      // Call to API to subscribe to Newsletter
+      setLoading(false); 
+      setEndIcon(<Icon baseClassName="fas" className="fa-check" sx={{ fontSize: 30 }} />);
+      setColor('success');
+      // alert('clicked');
+  } 
+
+  const mc_form_url = "https://jorgealegre.us14.list-manage.com/subscribe/post?u=b15ae75dda7c1210a1bc39873&amp;id=8fd3ff5d35&amp;f_id=009945e5f0";
+
+return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
+  
+<a id="top" />
+<h2 class="text-center">What is Safefolder?</h2>
+
+<div class="mx-auto text-center mt-5 d-none d-sm-block">
+<div class="embed-responsive embed-responsive-16by9">
+
+<iframe 
+class="embed-responsive-item sf-video-item"
+src="https://www.youtube.com/embed/IRfGsF6DrkU?si=NFCr46PK5M-Mw7Rc" 
+title="YouTube video player" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+</div>
+</div>
+
+<div class="mx-auto text-center mt-5 d-xl-none d-lg-none d-md-none d-sm-none">
+<div class="embed-responsive embed-responsive-16by9">
+
+<iframe 
+width="315"
+height="560"
+class="embed-responsive-item"
+src="https://youtube.com/embed/Q2RJDpZC8w0?si=a2AYik3HvMLM4KD5" 
+title="YouTube video player" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+</div>
+</div>
+
+
+<div class="card mx-auto sf-intro-cards">
+  <div class="card-body">
+    <h5 class="card-title">Mission Statement</h5>
+    <p class="card-text">
+      Provide the tools needed so users have all their data in their devices, and they control who has access to it.
+      </p>
+  </div>
+</div>
+
+<div class="card mx-auto sf-intro-cards">
+  <div class="card-body">
+    <h5 class="card-title">Core Values</h5>
+    <p class="card-text">
+      1. It's my data and I control it.<br />
+      2. Grow through collaboration in a collaborative economy.<br />
+      3. Allow and promote talent through value proposals.<br />
+      4. We get to excellence by experimenting in the market.
+      </p>
+  </div>
+</div>
+
+<MailchimpSubscribe
+          url={mc_form_url}
+          render={({ subscribe, status, message }) => (
+            <EmailSubscribeForm
+              status={status}
+              message={message}
+              onValidated={formData => subscribe(formData)}
+            />
+          )}
+        />
+
+</div>
+}
