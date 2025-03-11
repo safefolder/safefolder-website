@@ -64,14 +64,6 @@ module.exports = {
       __key: "pages"
     },
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "posts",
-        "path": "./src/blog/"
-      },
-      __key: "posts"
-    },
-    {
     resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
