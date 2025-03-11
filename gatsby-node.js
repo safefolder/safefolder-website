@@ -6,8 +6,10 @@
 
 // You can delete this file if you're not using it
 
-const mdx = require('remark-mdx')
+// const mdx = require('remark-mdx')
+// import mdx from 'remark-mdx';
 const path = require("path")
+// import {path} from 'path';
 
 const pageTemplate = path.resolve(`./src/components/mdx_layouts/page.js`)
 
