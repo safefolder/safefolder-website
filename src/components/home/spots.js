@@ -28,6 +28,8 @@ export const Spots = () => {
     all benefits and conditions for usage and 
     shared revenue. When we go into production, uploading and locking an NFT into the platform will allow the creation of spots. 
     Having a spot allows you to join our <b>affiliate network</b> and use one user in shared workspaces with low fees.</p>
+
+    <p>You can purchase an spot for your use or to rent through our affiliate network.</p>
     
     <p>You can have spots by…</p>
 
@@ -55,7 +57,17 @@ export const Spots = () => {
         </div>
     </div>
 
-    <p>We have three phases: Bootstrapper, Explorer, and Rocketeer. We are in the bootstrapping phase, building the products and services 
+    <div class="accordion mt-3" id="spotDetails">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpotDelatils" aria-expanded="false" aria-controls="collapseSpotDelatils">
+                More details on Spots...
+            </button>
+            </h2>
+            <div id="collapseSpotDelatils" class="accordion-collapse collapse" data-bs-parent="#spotDetails">
+            <div class="accordion-body">
+
+            <p>We have three phases: Bootstrapper, Explorer, and Rocketeer. We are in the bootstrapping phase, building the products and services 
         to secure your data. When we deliver the first release into production, we will move into the Explorer phase, adapting to market needs. 
         After reaching the product-market fit, we will move into the Growth phase, becoming Rocketeers</p>
 
@@ -207,6 +219,19 @@ export const Spots = () => {
 
     <p>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
         subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.</p>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <StaticImage 
+        src="../../images/bootstrapper_1_spot_v1.webp" 
+        alt="Safefolder Bootstrapper Certificate 1 User" 
+        class="img-fluid rounded d-block center-block mt-5 mx-auto" 
+        style={{"max-width": "500px"}}
+    />
 
     </div></div>
 }

@@ -85,9 +85,17 @@ export const Intro = () => {
   const mc_form_url = "https://jorgealegre.us14.list-manage.com/subscribe/post?u=b15ae75dda7c1210a1bc39873&amp;id=8fd3ff5d35&amp;f_id=009945e5f0";
 
 return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
-  
+
 <a id="top" />
 <h2 class="text-center">What is Safefolder?</h2>
+
+<h3 class="text-center mx-auto pt-3 pb-3" style={{"font-weight": "100", "max-width": "700px"}}>
+  Safefolder is a platform designed for data and applications that seeks to address security issues on the Internet.
+</h3>
+
+<p class="text-center pt-2">
+  Watch the video below to learn how we will address the top three issues of privacy and security online:
+</p>
 
 <div class="mx-auto text-center mt-5 d-none d-sm-block">
 <div class="embed-responsive embed-responsive-16by9">

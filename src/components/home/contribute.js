@@ -28,8 +28,22 @@ export const Contribute = () => {
     
     <p style={{"text-align": "center"}}><b>10 Credits = 1 Spot</b></p>
 
+    <StaticImage 
+        src="../../images/bootstrapper_contributor.webp" 
+        alt="Safefolder Bootstrapper Certificate 1 User" 
+        class="img-fluid rounded d-block center-block mt-5 mx-auto mb-5" 
+        style={{"max-width": "500px"}}
+    />
+
     <p>The first 12 members receive a special certificate reward, the “<b>Distinguished Contributor</b>,” which allows more 
     certificates and credits. We thank you for being an early adopter and joining our team sooner.</p>
+
+    <StaticImage 
+        src="../../images/bootstrapper_distinguished.webp" 
+        alt="Safefolder Bootstrapper Certificate 1 User" 
+        class="img-fluid rounded d-block center-block mt-5 mx-auto mb-5" 
+        style={{"max-width": "500px"}}
+    />
 
             <p class="mt-3">You can occasionally contribute to our open source repository or commit more regularly, and we will recognize you 
                 with an award.</p>
@@ -40,232 +54,250 @@ export const Contribute = () => {
             <p>You will gain credits and certificates as we move into our product phases. If you enter as a Bootstrapper, you will 
                 gain more credits and certificates in the Bootstrapping phase than in the Exploring phase.</p>
 
-            <h4>Benefits for Helping With the Product</h4>
+            <div class="accordion mt-3" id="rewardDetails">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRewardDelatils" aria-expanded="false" aria-controls="collapseRewardDelatils">
+                        More details on Rewards...
+                    </button>
+                    </h2>
+                    <div id="collapseRewardDelatils" class="accordion-collapse collapse" data-bs-parent="#rewardDetails">
+                    <div class="accordion-body">
+                    
+                    <h4>Benefits for Helping With the Product</h4>
 
-            <div class="card-group" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Side Income</h5>
-                    <p class="card-text">You get a lifetime side income monthly.</p>
+                    <div class="card-group" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Side Income</h5>
+                            <p class="card-text">You get a lifetime side income monthly.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Talent Visibility</h5>
+                            <p class="card-text">Boost your career by gaining visibility.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-brain"> </small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Participate in the Next Thing</h5>
+                            <p class="card-text">Join a product challenging and participate in a paradigm shift.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-face-grin-wide"> </small>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small> 
+
+                    <h4>Benefits for Helping With Distribution</h4>
+
+                    <div class="card-group" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Monetize Your Social Network</h5>
+                            <p class="card-text">Monetize your social network with the spots you gain today and tomorrow.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Increase Networking</h5>
+                            <p class="card-text">Our community can allow you to increase influence and networking.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-handshake"> </small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Side Income</h5>
+                            <p class="card-text">Side income on a recurring basis for a lifetime.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Influence</h5>
+                            <p class="card-text">Influence on a change for innovation on privacy.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-microphone"> </small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Participate in the Next Thing</h5>
+                            <p class="card-text">Join a product challenging and participate in a paradigm shift.</p>
+                            </div>
+                            <div class="card-footer" style={{"text-align": "center"}}>
+                                <small class="text-body-secondary fa fa-lg fa-face-grin-wide"> </small>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Talent Visibility</h5>
-                    <p class="card-text">Boost your career by gaining visibility.</p>
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="rust-tab" data-bs-toggle="tab" data-bs-target="#rust-tab-pane" type="button" role="tab" aria-controls="rust-tab-pane" aria-selected="true">
+                        Rust
+                    </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="react-tab" data-bs-toggle="tab" data-bs-target="#react-tab-pane" type="button" role="tab" aria-controls="react-tab-pane" aria-selected="false">
+                        React
+                    </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contracts-tab" data-bs-toggle="tab" data-bs-target="#contracts-tab-pane" type="button" role="tab" aria-controls="contracts-tab-pane" aria-selected="false">
+                        Contracts
+                    </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="reposters-tab" data-bs-toggle="tab" data-bs-target="#reposters-tab-pane" type="button" role="tab" aria-controls="reposters-tab-pane" aria-selected="false">
+                        Reposters
+                    </button>
+                    </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="rust-tab-pane" role="tabpanel" aria-labelledby="rust-tab" tabindex="0">
+
+                    <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
+
+                    <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 15 spots.</p>
+
+                    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Bootstrapping Phase</h5>
+                            <p class="card-text">10 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Explorering Phase</h5>
+                            <p class="card-text">4 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Rocketing Phase</h5>
+                            <p class="card-text">2 spots per quarter</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-brain"> </small>
+
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Participate in the Next Thing</h5>
-                    <p class="card-text">Join a product challenging and participate in a paradigm shift.</p>
+
+                    <div class="tab-pane fade show" id="react-tab-pane" role="tabpanel" aria-labelledby="react-tab" tabindex="0">
+
+                    <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
+
+                    <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 12 spots.</p>
+
+                    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Bootstrapping Phase</h5>
+                            <p class="card-text">8 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Explorering Phase</h5>
+                            <p class="card-text">2.4 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Rocketing Phase</h5>
+                            <p class="card-text">1.2 spots per quarter</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-face-grin-wide"> </small>
+
+                    </div>
+
+                    <div class="tab-pane fade show" id="contracts-tab-pane" role="tabpanel" aria-labelledby="contracts-tab" tabindex="0">
+
+                    <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
+
+                    <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 23 spots.</p>
+
+                    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Bootstrapping Phase</h5>
+                            <p class="card-text">15 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Explorering Phase</h5>
+                            <p class="card-text">5 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Rocketing Phase</h5>
+                            <p class="card-text">2.5 spots per quarter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="tab-pane fade show" id="reposters-tab-pane" role="tabpanel" aria-labelledby="reposters-tab" tabindex="0">
+
+                    <p class="mt-3">If you have a social account in X, Facebook, TikTok, or Instagram with more than 1,000 followers, you get two spots 
+                        per quarter for 3 months or reposting at least four monthly posts. We publish from 3 to 7 posts per week.</p>
+
+                    <p>You start with eight spots per quarter if you enter among the first 10 distribution team members being a 
+                        “<b>Distinguished Contributor</b>.”</p>
+
+                    <p>You will receive eight spots if you are a “Distinguished Contributor” among the first 10 product team members.</p>
+
+                    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Bootstrapping Phase</h5>
+                            <p class="card-text">5 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Explorering Phase</h5>
+                            <p class="card-text">1.5 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Rocketing Phase</h5>
+                            <p class="card-text">1 spots per quarter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    </div>
+
+
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <h4>Benefits for Helping With Distribution</h4>
 
-            <div class="card-group" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Monetize Your Social Network</h5>
-                    <p class="card-text">Monetize your social network with the spots you gain today and tomorrow.</p>
-                    </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small> 
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Increase Networking</h5>
-                    <p class="card-text">Our community can allow you to increase influence and networking.</p>
-                    </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-handshake"> </small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Side Income</h5>
-                    <p class="card-text">Side income on a recurring basis for a lifetime.</p>
-                    </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-dollar-sign"> </small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Influence</h5>
-                    <p class="card-text">Influence on a change for innovation on privacy.</p>
-                    </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-microphone"> </small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Participate in the Next Thing</h5>
-                    <p class="card-text">Join a product challenging and participate in a paradigm shift.</p>
-                    </div>
-                    <div class="card-footer" style={{"text-align": "center"}}>
-                        <small class="text-body-secondary fa fa-lg fa-face-grin-wide"> </small>
-                    </div>
-                </div>
-            </div>
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="rust-tab" data-bs-toggle="tab" data-bs-target="#rust-tab-pane" type="button" role="tab" aria-controls="rust-tab-pane" aria-selected="true">
-                Rust
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="react-tab" data-bs-toggle="tab" data-bs-target="#react-tab-pane" type="button" role="tab" aria-controls="react-tab-pane" aria-selected="false">
-                React
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="contracts-tab" data-bs-toggle="tab" data-bs-target="#contracts-tab-pane" type="button" role="tab" aria-controls="contracts-tab-pane" aria-selected="false">
-                Contracts
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="reposters-tab" data-bs-toggle="tab" data-bs-target="#reposters-tab-pane" type="button" role="tab" aria-controls="reposters-tab-pane" aria-selected="false">
-                Reposters
-            </button>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="rust-tab-pane" role="tabpanel" aria-labelledby="rust-tab" tabindex="0">
-
-            <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
-
-            <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 15 spots.</p>
-
-            <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Bootstrapping Phase</h5>
-                    <p class="card-text">10 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Explorering Phase</h5>
-                    <p class="card-text">4 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Rocketing Phase</h5>
-                    <p class="card-text">2 spots per quarter</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="tab-pane fade show" id="react-tab-pane" role="tabpanel" aria-labelledby="react-tab" tabindex="0">
-
-            <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
-
-            <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 12 spots.</p>
-
-            <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Bootstrapping Phase</h5>
-                    <p class="card-text">8 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Explorering Phase</h5>
-                    <p class="card-text">2.4 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Rocketing Phase</h5>
-                    <p class="card-text">1.2 spots per quarter</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="tab-pane fade show" id="contracts-tab-pane" role="tabpanel" aria-labelledby="contracts-tab" tabindex="0">
-
-            <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
-
-            <p>If you are a “<b>Distinguished Contributor</b>” among the first 10 product team members, you will receive 23 spots.</p>
-
-            <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Bootstrapping Phase</h5>
-                    <p class="card-text">15 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Explorering Phase</h5>
-                    <p class="card-text">5 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Rocketing Phase</h5>
-                    <p class="card-text">2.5 spots per quarter</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="tab-pane fade show" id="reposters-tab-pane" role="tabpanel" aria-labelledby="reposters-tab" tabindex="0">
-
-            <p class="mt-3">If you have a social account in X, Facebook, TikTok, or Instagram with more than 1,000 followers, you get two spots 
-                per quarter for 3 months or reposting at least four monthly posts. We publish from 3 to 7 posts per week.</p>
-
-            <p>You start with eight spots per quarter if you enter among the first 10 distribution team members being a 
-                “<b>Distinguished Contributor</b>.”</p>
-
-            <p>You will receive eight spots if you are a “Distinguished Contributor” among the first 10 product team members.</p>
-
-            <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Bootstrapping Phase</h5>
-                    <p class="card-text">5 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Explorering Phase</h5>
-                    <p class="card-text">1.5 spots per quarter</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Rocketing Phase</h5>
-                    <p class="card-text">1 spots per quarter</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
 
     <div class="mx-auto text-center">
 
