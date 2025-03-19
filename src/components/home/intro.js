@@ -89,8 +89,8 @@ return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}
 <a id="top" />
 <h2 class="text-center">What is Safefolder?</h2>
 
-<h3 class="text-center mx-auto pt-3 pb-3" style={{"font-weight": "100", "max-width": "700px"}}>
-  Safefolder is a platform designed for data and applications that seeks to address security issues on the Internet.
+<h3 class="text-center mx-auto pt-3 pb-3" style={{"font-weight": "300", "max-width": "700px"}}>
+  Safefolder is a platform for data and applications to address security issues on the Internet.
 </h3>
 
 <p class="text-center pt-2">
@@ -102,7 +102,7 @@ return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}
 
 <iframe 
 class="embed-responsive-item sf-video-item"
-src="https://www.youtube.com/embed/IRfGsF6DrkU?si=NFCr46PK5M-Mw7Rc" 
+src="https://www.youtube.com/embed/31SpMErBFDs?si=z2VZ1Z1QffFfYBHS" 
 title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -118,7 +118,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 width="315"
 height="560"
 class="embed-responsive-item"
-src="https://youtube.com/embed/Q2RJDpZC8w0?si=a2AYik3HvMLM4KD5" 
+src="https://youtube.com/embed/_OQKfGW33QU?si=oDhGzmqOXi5G5iXO" 
 title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
