@@ -13,30 +13,29 @@ import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 
 
 export const ProductRequestForm = ({ status, message, onValidated }) => {
-    let email, linkedin, github, eth_address, comments;
+    let product_email, product_linkedin, product_github, product_eth_address, product_city, product_comments;
 
     const [loading, setLoading] = React.useState(false); 
     const [color, setColor] = React.useState('primary'); 
     const [endIcon, setEndIcon] = React.useState(null);
 
-    const [role, setRole] = React.useState('Rust');
-
-    console.log("role: " + role);
+    const [product_role, setRole] = React.useState('Rust');
 
     const handleChange = (event) => {
         setRole(event.target.value);
     };
 
     const submit = () =>
-        email &&
-        email.value.indexOf("@") > -1 &&
+        product_email &&
+        product_email.value.indexOf("@") > -1 &&
         onValidated({
-            PROROLE: role,
-            EMAIL: email.value,
-            ETHADDRESS: eth_address.value,
-            LINKEDIN: linkedin.value,
-            GITHUB: github.value,
-            NOTE: comments.value,
+            PROROLE: product_role,
+            EMAIL: product_email.value,
+            ETHADDRESS: product_eth_address.value,
+            LINKEDIN: product_linkedin.value,
+            GITHUB: product_github.value,
+            CITY: product_city.value,
+            COMMENTS: product_comments.value,
             tags: "40188763,40188770"
         });
 
@@ -70,10 +69,11 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
                 labelId="product-role-select-label"
                 id="product_role"
                 defaultValue="Rust" 
-                value={role}
+                value={product_role}
                 label="Role"
                 onChange={handleChange}
                 className="sf_form_control"
+                style={{"max-width": "250px"}}
             >
                 <MenuItem value="Rust">Rust</MenuItem>
                 <MenuItem value="React">React & JS</MenuItem>
@@ -82,38 +82,46 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
         </FormControl>
           <TextField 
             required
-            id="input_email" 
+            id="product_input_email" 
             label="Email" 
             variant="outlined" 
-            inputRef={node => (email = node)} 
+            inputRef={node => (product_email = node)} 
             helperText="Your email address"
             className="sf_form_control"
           />
           <TextField 
             required
-            id="input_ethaddress" 
+            id="product_input_ethaddress" 
             label="Eth Address" 
             variant="outlined" 
-            inputRef={node => (eth_address = node)} 
+            inputRef={node => (product_eth_address = node)} 
             helperText="Your Ethereum address"
             className="sf_form_control"
           /><br />
           <TextField 
             required
-            id="input_linkedin" 
+            id="product_input_linkedin" 
             label="LinkedIn" 
             variant="outlined" 
-            inputRef={node => (linkedin = node)} 
+            inputRef={node => (product_linkedin = node)} 
             helperText="Your LinkedIn profile page"
             className="sf_form_control"
           />
           <TextField 
             required
-            id="input_github" 
+            id="product_input_github" 
             label="GitHub" 
             variant="outlined" 
-            inputRef={node => (github = node)} 
+            inputRef={node => (product_github = node)} 
             helperText="Your GitHub profile page"
+            className="sf_form_control"
+          />
+          <TextField 
+            id="product_input_city" 
+            label="City" 
+            variant="outlined" 
+            inputRef={node => (product_city = node)} 
+            helperText="Your City"
             className="sf_form_control"
           />
           <TextField
@@ -121,7 +129,7 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
             label="Comments"
             multiline
             maxRows={6}
-            inputRef={node => (comments = node)} 
+            inputRef={node => (product_comments = node)} 
             helperText="Comments of your work"
             style={{"width": "44rem"}}
             className="sf_form_control"
@@ -134,6 +142,7 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
             onClick={submit}
             loading={loading}
             color={color}
+            className="sf_form_control"
           >
             Send
           </Button>
@@ -143,21 +152,22 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
 };
 
 export const RepostRequestForm = ({ status, message, onValidated }) => {
-    let email, linkedin, eth_address, social, comments;
+    let repost_email, repost_linkedin, repost_eth_address, repost_social, repost_city, repost_comments;
 
     const [loading, setLoading] = React.useState(false); 
     const [color, setColor] = React.useState('primary'); 
     const [endIcon, setEndIcon] = React.useState(null);
 
     const submit = () =>
-        email &&
-        email.value.indexOf("@") > -1 &&
+      repost_email &&
+      repost_email.value.indexOf("@") > -1 &&
         onValidated({
-            EMAIL: email.value,
-            ETHADDRESS: eth_address.value,
-            LINKEDIN: linkedin.value,
-            MERGE3: social.value,
-            NOTE: comments.value,
+            EMAIL: repost_email.value,
+            ETHADDRESS: repost_eth_address.value,
+            LINKEDIN: repost_linkedin.value,
+            MERGE3: repost_social.value,
+            CITY: repost_city.value,
+            COMMENTS: repost_comments.value,
             tags: "40188763,40188768"
         });
 
@@ -187,39 +197,48 @@ export const RepostRequestForm = ({ status, message, onValidated }) => {
           )}
           <TextField 
             required
-            id="input_email" 
+            id="repost_input_email" 
             label="Email" 
             variant="outlined" 
-            inputRef={node => (email = node)} 
+            inputRef={node => (repost_email = node)} 
             helperText="Your email address"
             className="sf_form_control"
           />
           <TextField 
             required
-            id="input_ethaddress" 
+            id="repost_input_ethaddress" 
             label="Eth Address" 
             variant="outlined" 
-            inputRef={node => (eth_address = node)} 
+            inputRef={node => (repost_eth_address = node)} 
             helperText="Your Ethereum address"
             className="sf_form_control"
           />
           <TextField 
-            id="input_linkedin" 
+            id="repost_input_linkedin" 
             label="LinkedIn" 
             variant="outlined" 
-            inputRef={node => (linkedin = node)} 
+            inputRef={node => (repost_linkedin = node)} 
             helperText="Your LinkedIn profile page"
             className="sf_form_control"
           />
           <TextField 
-            id="input_social" 
+            required 
+            id="repost_input_social" 
             label="Social Accounts" 
             multiline
             variant="outlined" 
             maxRows={6}
-            inputRef={node => (social = node)} 
+            inputRef={node => (repost_social = node)} 
             helperText="Your social accounts, one per line"
             style={{"width": "44rem"}}
+            className="sf_form_control"
+          />
+          <TextField 
+            id="repost_input_city" 
+            label="City" 
+            variant="outlined" 
+            inputRef={node => (repost_city = node)} 
+            helperText="Your City"
             className="sf_form_control"
           />
           <TextField
@@ -227,7 +246,7 @@ export const RepostRequestForm = ({ status, message, onValidated }) => {
             label="Comments"
             multiline
             maxRows={6}
-            inputRef={node => (comments = node)} 
+            inputRef={node => (repost_comments = node)} 
             helperText="Comments"
             style={{"width": "44rem"}}
             className="sf_form_control"
@@ -240,6 +259,7 @@ export const RepostRequestForm = ({ status, message, onValidated }) => {
             onClick={submit}
             loading={loading}
             color={color}
+            className="sf_form_control"
           >
             Send
           </Button>
@@ -248,100 +268,6 @@ export const RepostRequestForm = ({ status, message, onValidated }) => {
   );
 };
 
-export const TeamRequestForm = ({ status, message, onValidated }) => {
-    let email, linkedin, github, eth_address, comments;
-
-    const [loading, setLoading] = React.useState(false); 
-    const [color, setColor] = React.useState('primary'); 
-    const [endIcon, setEndIcon] = React.useState(null);
-
-    const submit = () =>
-        email &&
-        email.value.indexOf("@") > -1 &&
-        onValidated({
-            EMAIL: email.value,
-            ETHADDRESS: eth_address.value,
-            LINKEDIN: linkedin.value,
-            NOTE: comments.value,
-            tags: "40188763,40188769"
-        });
-
-
-  return (
-    <div class="mx-auto text-center">
-    <Box
-          component="form"
-          sx={{ '& > :not(style)': { m: 1, width: '35ch' } }}
-          noValidate
-          autoComplete="off"
-        >
-          {status === "sending" && <div class="mx-auto" style={{ color: "blue" }}>Sending...</div>}
-          {status === "error" && (
-            <div
-              style={{ color: "red" }}
-              class="mx-auto" 
-              dangerouslySetInnerHTML={{ __html: message }}
-            />
-          )}
-          {status === "success" && (
-            <div
-              style={{ color: "green" }} 
-              class="mx-auto"
-              dangerouslySetInnerHTML={{ __html: message }}
-            />
-          )}
-          <TextField 
-            required
-            id="input_email" 
-            label="Email" 
-            variant="outlined" 
-            inputRef={node => (email = node)} 
-            helperText="Your email address"
-            className="sf_form_control"
-          />
-          <TextField 
-            required
-            id="input_ethaddress" 
-            label="Eth Address" 
-            variant="outlined" 
-            inputRef={node => (eth_address = node)} 
-            helperText="Your Ethereum address"
-            className="sf_form_control"
-          />
-          <TextField 
-            required
-            id="input_linkedin" 
-            label="LinkedIn" 
-            variant="outlined" 
-            inputRef={node => (linkedin = node)} 
-            helperText="Your LinkedIn profile page"
-            className="sf_form_control"
-          />
-          <TextField
-            id="team_comments"
-            label="Comments"
-            multiline
-            maxRows={6}
-            inputRef={node => (comments = node)} 
-            helperText="Comments of your skills for helping us build the team"
-            style={{"width": "44rem"}}
-            className="sf_form_control"
-          /><br />
-          <Button 
-            id="product_send_button"
-            variant="contained" 
-            endIcon={<Icon baseClassName="fas" className="fa-arrow-right" sx={{ fontSize: 30 }} />}
-            sx={{'height': '3.5rem'}} 
-            onClick={submit}
-            loading={loading}
-            color={color}
-          >
-            Send
-          </Button>
-    </Box>
-    </div>
-  );
-};
 
 export const Team = () => {
 

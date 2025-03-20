@@ -194,14 +194,14 @@ export const Spots = () => {
         </div>
         <div class="card">
             <div class="card-body">
-            <h5 class="card-title">10 Users</h5>
-            <span style={{"font-size": "1.7rem"}}>$797.00<br/> ($79 per user)</span>
+            <h5 class="card-title">5 Users</h5>
+            <span style={{"font-size": "1.7rem"}}>$397.00<br/> ($79 per user)</span>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">25 Users</h5>
-            <span style={{"font-size": "1.7rem"}}>$1,700<br/> ($67 per user)</span>
+            <span style={{"font-size": "1.7rem"}}>$1,700<br/> ($68 per user)</span>
             </div>
         </div>
     </div>
@@ -210,16 +210,6 @@ export const Spots = () => {
 
     <p>You will be able to purchase a spot from NFT marketplaces like OpenSea. Signup for the newsletter to receive updates on our 
         next fundraising of spots.</p>
-
-    <p><b>Disclaimer:</b> Investing in products in development has associated risks of possible delays and problems. This site offers 
-    detailed information on what is left to build, and you can also check our data repository at GitHub for more details on our software. 
-    We will do our best to deliver and move into production at the end of 2026. We will publish more detailed dates in the first quarter 
-    of 2026. If you purchase now and do not want to continue later, you can exit this Bootstrapping support by selling your NFT in the 
-    NFT marketplaces.</p>
-
-    <p>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
-        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.</p>
-
 
             </div>
             </div>
@@ -232,6 +222,16 @@ export const Spots = () => {
         class="img-fluid rounded d-block center-block mt-5 mx-auto" 
         style={{"max-width": "500px"}}
     />
+
+<p class="mt-3" style={{"font-size": "70%", "color": "#838282"}}><b>Disclaimer:</b> Investing in products in development has associated risks of possible delays and problems. This site offers 
+    detailed information on what is left to build, and you can also check our data repository at GitHub for more details on our software. 
+    We will do our best to deliver and move into production at the end of 2026. We will publish more detailed dates in the first quarter 
+    of 2026. If you purchase now and do not want to continue later, you can exit this Bootstrapping support by selling your NFT in the 
+    NFT marketplaces.</p>
+
+    <p style={{"font-size": "70%", "color": "#838282"}}>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
+        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.</p>
+
 
     </div></div>
 }

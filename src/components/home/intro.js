@@ -48,6 +48,7 @@ export const EmailSubscribeForm = ({ status, message, onValidated }) => {
             label="Email" 
             variant="outlined" 
             inputRef={node => (email = node)} 
+            className="sf_form_control"
             helperText="Subscribe to Newsletter to receive updates"
           />
           <Button 

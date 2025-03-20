@@ -107,7 +107,7 @@
         height: 35vh;
     }
     .sf_form_control {
-        max-width: 320px;
+        max-width: 100%;
     }
     .sf-hero-title {
         font-size: 3rem;
