@@ -4,7 +4,7 @@ import Icon from '@mui/material/Icon';
 import Button from '@mui/material/Button';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 
-export const Spots = () => {
+const Spots = () => {
     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
     <div class="container">
 
@@ -240,3 +240,5 @@ export const Spots = () => {
 
     </div></div>
 }
+
+export default Spots;

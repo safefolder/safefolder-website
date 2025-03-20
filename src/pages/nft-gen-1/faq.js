@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import GitHub from '@mui/icons-material/GitHub';
 
-export const Faq = () => {
+const Faq = () => {
     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
     <div class="container">
     
@@ -313,3 +313,5 @@ export const Faq = () => {
 
     </div></div>
 }
+
+export default Faq;

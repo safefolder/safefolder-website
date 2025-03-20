@@ -2,7 +2,7 @@ import * as React from "react";
 import Button from '@mui/material/Button';
 import LanguageIcon from '@mui/icons-material/Language';
 
-export const Footer = () => {
+const Footer = () => {
     return <div class="container-fluid sf-section" style={{"background": "#000000"}}>
     <div class="fluid-container mx-auto text-center pt-4 pb-2">
 
@@ -33,3 +33,5 @@ export const Footer = () => {
 
     </div></div>
 }
+
+export default Footer;

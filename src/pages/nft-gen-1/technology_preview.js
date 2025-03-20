@@ -8,7 +8,7 @@ import GitHub from '@mui/icons-material/GitHub';
 import {EmailSubscribeForm} from './intro';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
-export const TechnologyPreview = () => {
+const TechnologyPreview = () => {
 
   const [loading, setLoading] = React.useState(false); 
   const [color, setColor] = React.useState('primary'); 
@@ -75,3 +75,5 @@ export const TechnologyPreview = () => {
 
     </div></div>
 }
+
+export default TechnologyPreview;

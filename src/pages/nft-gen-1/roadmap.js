@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import GitHub from '@mui/icons-material/GitHub';
 
-export const Roadmap = () => {
+const Roadmap = () => {
     return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
     <div class="container">
     
@@ -142,3 +142,5 @@ export const Roadmap = () => {
 
     </div></div>
 }
+
+export default Roadmap;

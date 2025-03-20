@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image"
 
-export const Plans = () => {
+const Plans = () => {
     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
     <div class="container">
     
@@ -89,3 +89,5 @@ export const Plans = () => {
 
     </div></div>
 }
+
+export default Plans;

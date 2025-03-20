@@ -2,7 +2,7 @@ import * as React from "react";
 import { useRef } from "react";
 import logo from "../../images/sf_logo.png";
 
-export const TopBar = () => {
+const TopBar = () => {
 
     const navButton = useRef(null);
     const linksContainerRef = useRef(null);
@@ -42,3 +42,5 @@ export const TopBar = () => {
     </div>
     </nav>
 }
+
+export default TopBar;

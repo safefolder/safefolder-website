@@ -69,7 +69,7 @@ export const EmailSubscribeForm = ({ status, message, onValidated }) => {
   );
 };
 
-export const Intro = () => {
+const Intro = () => {
 
   const [loading, setLoading] = React.useState(false); 
   const [color, setColor] = React.useState('primary'); 
@@ -157,3 +157,5 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 </div>
 }
+
+export default Intro;

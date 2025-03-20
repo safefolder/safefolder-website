@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image"
 
-export const ParadigmShift = () => {
+const ParadigmShift = () => {
     return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
     <div class="container">
 
@@ -35,3 +35,5 @@ export const ParadigmShift = () => {
 
 </div>
 }
+
+export default ParadigmShift;

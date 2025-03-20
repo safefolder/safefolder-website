@@ -3,15 +3,15 @@ import {SEO} from '../../components/seo';
 import "bootstrap/dist/css/bootstrap.min.css";
 import core_css from "../../styles/core.css";
 import home_css from "../../styles/home.css";
-import {TopBar} from "./top_bar";
-import {Intro} from "./intro";
-import {ParadigmShift} from "./paradigm_shift";
-import {Spots} from "./spots";
-import {TechnologyPreview} from "./technology_preview";
-import {Plans} from "./plans";
-import {Roadmap} from "./roadmap";
-import {Faq} from './faq';
-import {Footer} from './footer';
+import TopBar from "./top_bar";
+import Intro from "./intro";
+import ParadigmShift from "./paradigm_shift";
+import Spots from "./spots";
+import TechnologyPreview from "./technology_preview";
+import Plans from "./plans";
+import Roadmap from "./roadmap";
+import Faq from './faq';
+import Footer from './footer';
 
 const Home = () => {
   return (
