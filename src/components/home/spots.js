@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Icon from '@mui/material/Icon';
+import Button from '@mui/material/Button';
+import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 
 export const Spots = () => {
     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
@@ -230,8 +232,25 @@ export const Spots = () => {
     NFT marketplaces.</p>
 
     <p style={{"font-size": "70%", "color": "#838282"}}>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
-        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.</p>
+        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.
+        By purchasing at OpenSea you agree to our Spot purchase agreement.
+    </p>
 
+    <p style={{"font-size": "70%", "color": "#838282"}}>
+        By purchasing at OpenSea you agree to our Spot purchase agreement.
+    </p>
+
+    <div class="mx-auto text-center mt-3">
+        <Button 
+            color="gray" 
+            variant="contained" 
+            href="/legal/spot-purchase/" 
+            sx={{'height': '3.5rem', 'mt': 2, 'mb': 3, 'border-radius': 30, 'pl': 5, 'pr': 5}} 
+            startIcon={<PeopleOutlineIcon />}
+        >
+            Spot Purchase Agreement
+        </Button>
+    </div>
 
     </div></div>
 }
