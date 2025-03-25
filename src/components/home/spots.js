@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Icon from '@mui/material/Icon';
 import Button from '@mui/material/Button';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 export const Spots = () => {
     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
@@ -224,6 +225,22 @@ export const Spots = () => {
         class="img-fluid rounded d-block center-block mt-5 mx-auto" 
         style={{"max-width": "500px"}}
     />
+
+<div class="mx-auto text-center mt-3">
+    <Button 
+        variant="contained" 
+        href="https://opensea.io/collection/sf-spot-bootstrapper" 
+        sx={{'height': '3.5rem', 'mt': 2, 'mb': 3, 'border-radius': 30, 'pl': 5, 'pr': 5}} 
+        startIcon={<ShoppingBasketIcon />}
+        target="_blank"
+    >
+        Buy Spots @ OpenSea
+    </Button>
+</div>
+
+<p class="text-center" style={{"font-weight": "800", "font-size": "130%"}}>
+    Hurry up; the sale ends on April 25th!
+</p>
 
 <p class="mt-3" style={{"font-size": "70%", "color": "#838282"}}><b>Disclaimer:</b> Investing in products in development has associated risks of possible delays and problems. This site offers 
     detailed information on what is left to build, and you can also check our data repository at GitHub for more details on our software. 
