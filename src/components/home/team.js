@@ -76,8 +76,6 @@ export const ProductRequestForm = ({ status, message, onValidated }) => {
                 style={{"max-width": "250px"}}
             >
                 <MenuItem value="Rust">Rust</MenuItem>
-                <MenuItem value="React">React & JS</MenuItem>
-                <MenuItem value="Contracts">Smart Contracts</MenuItem>
             </Select>
         </FormControl>
           <TextField 
@@ -326,29 +324,6 @@ export const Team = () => {
                         url={mc_form_url}
                         render={({ subscribe, status, message }) => (
                             <ProductRequestForm
-                            status={status}
-                            message={message}
-                            onValidated={formData => subscribe(formData)}
-                            />
-                        )}
-                        />
-
-            </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Join the Team Helping on Reposting
-            </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-
-                <MailchimpSubscribe
-                        url={mc_form_url}
-                        render={({ subscribe, status, message }) => (
-                            <RepostRequestForm
                             status={status}
                             message={message}
                             onValidated={formData => subscribe(formData)}
