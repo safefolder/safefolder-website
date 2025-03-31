@@ -10,6 +10,7 @@ import Spots from "./spots";
 import TechnologyPreview from "./technology_preview";
 import Plans from "./plans";
 import Roadmap from "./roadmap";
+import Team from "./team";
 import Faq from './faq';
 import Footer from './footer';
 
@@ -24,6 +25,7 @@ const Home = () => {
     <TechnologyPreview />
     <Plans />
     <Roadmap />
+    <Team />
     <Faq />    
   </div>
   <div class="fuid-container" style={{"border-top": "solid #8D0404 6px"}}>

@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import GitHub from '@mui/icons-material/GitHub';
 
 const Faq = () => {
-    return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
+    return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
     <div class="container">
     
     <a id="faq"><h2 class="text-center">FAQ</h2></a>
