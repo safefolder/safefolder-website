@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import GitHub from '@mui/icons-material/GitHub';
 
 const Faq = () => {
-    return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
+    return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
     <div class="container">
     
     <a id="faq"><h2 class="text-center">FAQ</h2></a>
@@ -13,6 +13,7 @@ const Faq = () => {
     <h4 class="text-center sf-subhead">We answer your questions.</h4>
 
     <div class="accordion mt-3" id="accordionFAQ">
+
 
         <div class="accordion-item">
             <h2 class="accordion-header">
@@ -27,6 +28,7 @@ const Faq = () => {
             </div>
             </div>
         </div>
+
 
         <div class="accordion-item">
             <h2 class="accordion-header">
