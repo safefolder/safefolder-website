@@ -55,55 +55,11 @@ const Spots = () => {
     </div>
 
     <StaticImage 
-        src="../../images/bootstrapper_1_spot_v1.webp" 
+        src="../../images/bootstrapper_25_spots_v1.webp" 
         alt="Safefolder Bootstrapper Certificate 1 User" 
         class="img-fluid rounded d-block center-block mt-5 mx-auto" 
         style={{"max-width": "500px"}}
     />
-
-<div class="mx-auto text-center mt-3">
-    <Button 
-        variant="contained" 
-        href="https://opensea.io/collection/sf-spot-bootstrapper" 
-        sx={{'height': '3.5rem', 'mt': 2, 'mb': 3, 'border-radius': 30, 'pl': 5, 'pr': 5}} 
-        startIcon={<ShoppingBasketIcon />}
-        target="_blank"
-    >
-        Buy Spots @ OpenSea
-    </Button>
-</div>
-
-<p class="text-center" style={{"font-weight": "800", "font-size": "130%"}}>
-    Hurry up; the sale ends on April 25th!
-</p>
-
-<p class="mt-3" style={{"font-size": "70%", "color": "#838282"}}><b>Disclaimer:</b> Investing in products in development has associated risks of possible delays and problems. This site offers 
-    detailed information on what is left to build, and you can also check our data repository at GitHub for more details on our software. 
-    We will do our best to deliver and move into production at the end of 2026. We will publish more detailed dates in the first quarter 
-    of 2026. If you purchase now and do not want to continue later, you can exit this Bootstrapping support by selling your NFT in the 
-    NFT marketplaces.</p>
-
-    <p style={{"font-size": "70%", "color": "#838282"}}>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
-        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.
-        By purchasing at OpenSea you agree to our Spot purchase agreement.
-    </p>
-
-    <p style={{"font-size": "70%", "color": "#838282"}}>
-        By purchasing at OpenSea you agree to our Spot purchase agreement.
-    </p>
-
-    <div class="mx-auto text-center mt-3">
-        <Button 
-            color="gray" 
-            variant="contained" 
-            href="https://safefolder.app/legal/spot-purchase/" 
-            sx={{'height': '3.5rem', 'mt': 2, 'mb': 3, 'border-radius': 30, 'pl': 5, 'pr': 5}} 
-            startIcon={<PeopleOutlineIcon />}
-            target="_blank"
-        >
-            Spot Purchase Agreement
-        </Button>
-    </div>
 
     </div></div>
 }

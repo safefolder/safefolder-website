@@ -5,7 +5,7 @@ import core_css from "../../styles/core.css";
 import home_css from "../../styles/home.css";
 import TopBar from "./top_bar";
 import Intro from "./intro";
-import ParadigmShift from "./paradigm_shift";
+import Meeting from "./meeting";
 import Spots from "./spots";
 import TechnologyPreview from "./technology_preview";
 import Plans from "./plans";
@@ -13,6 +13,7 @@ import Roadmap from "./roadmap";
 import Team from "./team";
 import Faq from './faq';
 import Footer from './footer';
+import SafefolderShare from '../../components/share';
 
 const Home = () => {
   return (
@@ -21,13 +22,13 @@ const Home = () => {
     <TopBar />
     <Intro />
     <Spots />
-    <TechnologyPreview />
-    <Plans />
-    <Roadmap />
-    <Team />
-    <Faq />    
+    <Meeting />
   </div>
   <div class="fuid-container" style={{"border-top": "solid #8D0404 6px"}}>
+    <SafefolderShare
+      shareUrl="https://safefolder.app"
+      shareTitle="Safefolder - Secure Your Data Your Way"
+     />
     <Footer />
   </div>
   </>

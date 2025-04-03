@@ -95,16 +95,12 @@ return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}
   Safefolder is a platform for data and applications to solve the security problems of the Internet.
 </h3>
 
-<p class="text-center pt-2">
-  Watch the video below to learn how we will address the top three issues of privacy and security online:
-</p>
-
 <div class="mx-auto text-center mt-5 d-none d-sm-block">
 <div class="embed-responsive embed-responsive-16by9">
 
 <iframe 
 class="embed-responsive-item sf-video-item"
-src="https://www.youtube.com/embed/0Ih3dIIMvSs?si=mAcO063fsw7rtXeb" 
+src="https://www.youtube.com/embed/nQF5xYkKY8E?si=Qw91YSyyGxrpKSDv" 
 title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -120,7 +116,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 width="315"
 height="560"
 class="embed-responsive-item"
-src="https://www.youtube.com/embed/scqC1KN0Lsw?si=TUqJWxoq4SBYy-UL" 
+src="https://youtube.com/embed/tUSWgD2VO1g?si=u4CGKhIhmhE17pez" 
 title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -128,6 +124,33 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 </div>
 </div>
+
+<div class="accordion mt-3" id="techPreview">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#techPreviewVideo" aria-expanded="false" aria-controls="techPreviewVideo">
+                Watch User Experience Video
+            </button>
+            </h2>
+            <div id="techPreviewVideo" class="accordion-collapse collapse" data-bs-parent="#techPreview">
+            <div class="accordion-body">
+
+            <div class="mx-auto text-center mt-5 mb-3">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe 
+            class="embed-responsive-item sf-video-item"
+            src="https://www.youtube.com/embed/uK1ARuXs_ME?si=bdMEHhjr6RF2Asm8" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            </div>
+            </div>
+
+            </div>
+            </div>
+        </div>
+        </div>
 
 </div>
 }
