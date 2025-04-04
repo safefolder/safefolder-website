@@ -19,7 +19,7 @@ export const Contribute = () => {
         class="img-fluid rounded d-block center-block sf-section-img" 
     />
 
-    <p>You can contribute to the product.</p>
+    <p>You can contribute to the product or participate in the promotion of our social content.</p>
 
     <p>We share certificates at the end of the quarter, where we place the Q&A process. If you do not earn full certificates, 
         we will give you credits that can be exchanged in the next quarter. If you do not want to continue more quarters, you can 
@@ -102,8 +102,14 @@ export const Contribute = () => {
                         Rust
                     </button>
                     </li>
+                    <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="reposters-tab" data-bs-toggle="tab" data-bs-target="#reposters-tab-pane" type="button" role="tab" aria-controls="reposters-tab-pane" aria-selected="false">
+                         Reposters
+                     </button>
+                     </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
+
                     <div class="tab-pane fade show active" id="rust-tab-pane" role="tabpanel" aria-labelledby="rust-tab" tabindex="0">
 
                     <p class="mt-3">We multiply the value by a quality factor from 1.0 to 1.2 and a value factor from 1.0 to 1.5.</p>
@@ -130,12 +136,46 @@ export const Contribute = () => {
                             </div>
                         </div>
                     </div>
-
-                    </div>
                     </div>
 
+                    <div class="tab-pane fade show" id="reposters-tab-pane" role="tabpanel" aria-labelledby="reposters-tab" tabindex="0">
+
+                    <p class="mt-3">If you have a social account in X, Facebook, TikTok, or Instagram with more than 1,000 followers, you get two spots 
+                        per quarter for 3 months or reposting at least four monthly posts. We publish from 3 to 7 posts per week.</p>
+
+                    <p>You start with eight spots per quarter if you enter among the first 10 distribution team members being a 
+                        “<b>Distinguished Contributor</b>.”</p>
+
+                    <p>You will receive eight spots if you are a “Distinguished Contributor” among the first 10 product team members.</p>
+
+                    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Bootstrapping Phase</h5>
+                            <p class="card-text">5 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Explorering Phase</h5>
+                            <p class="card-text">1.5 spots per quarter</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">Rocketing Phase</h5>
+                            <p class="card-text">1 spots per quarter</p>
+                            </div>
+                        </div>
                     </div>
                     </div>
+
+                    </div>
+
+                    
+                    </div>
+                    </div>
+
                 </div>
             </div>
 
