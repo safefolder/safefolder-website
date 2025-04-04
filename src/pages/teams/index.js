@@ -7,11 +7,6 @@ import TopBar from "./top_bar";
 import Intro from "./intro";
 import Meeting from "./meeting";
 import Spots from "./spots";
-import TechnologyPreview from "./technology_preview";
-import Plans from "./plans";
-import Roadmap from "./roadmap";
-import Team from "./team";
-import Faq from './faq';
 import Footer from './footer';
 import SafefolderShare from '../../components/share';
 
