@@ -7,13 +7,6 @@ import {TopBar} from "../components/home/top_bar";
 import {Intro} from "../components/home/intro";
 import {ParadigmShift} from "../components/home/paradigm_shift";
 import {Spots} from "../components/home/spots";
-import {CollaborativeEconomy} from "../components/home/collaborative_economy";
-import {TechnologyPreview} from "../components/home/technology_preview";
-import {Plans} from "../components/home/plans";
-import {Roadmap} from "../components/home/roadmap";
-import {Contribute} from "../components/home/contribute";
-import {Team} from "../components/home/team";
-import {Faq} from '../components/home/faq';
 import {Footer} from '../components/footer';
 import SafefolderShare from '../components/share';
 
@@ -25,13 +18,6 @@ const Home = () => {
     <Intro />
     <ParadigmShift />
     <Spots />
-    <CollaborativeEconomy />
-    <TechnologyPreview />
-    <Plans />
-    <Roadmap />
-    <Contribute />
-    <Team />
-    <Faq />    
   </div>
   <div class="fuid-container" style={{"border-top": "solid #8D0404 6px"}}>
     <SafefolderShare

@@ -150,16 +150,5 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
   </div>
 </div>
 
-<MailchimpSubscribe
-          url={mc_form_url}
-          render={({ subscribe, status, message }) => (
-            <EmailSubscribeForm
-              status={status}
-              message={message}
-              onValidated={formData => subscribe(formData)}
-            />
-          )}
-        />
-
 </div>
 }
