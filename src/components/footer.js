@@ -9,16 +9,6 @@ export const Footer = () => {
     <span class="sf-foot-line">
         <i class="fa-solid fa-lock"></i> Secure Your Data Your Way</span>
 
-    
-    <p class="sf-foot-icons">
-        <a href="https://www.youtube.com/@safefolder-vid" target="_blank">
-            <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                <YouTubeIcon fontSize="inherit" />
-            </IconButton>
-        </a>
-
-    </p>
-
     <p class="sf-foot-copy">
         Copyright &copy; 2025 Jorge Alegre Vilches. All rights reserved.
     </p>
