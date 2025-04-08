@@ -37,6 +37,43 @@ export const TopBar = () => {
             id="navbarSupportedContent"
         >
             <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 mx-auto" style={{'background': '#eee'}}>
+            <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link active sf-tb-item" 
+                         aria-current="page" 
+                         href="#"
+                     >
+                         <i class="fa-solid fa-house"></i> Top
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link sf-tb-item" 
+                         href="#spots"
+                     >
+                         <i class="fa-solid fa-grip"></i> Spots
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link sf-tb-item" 
+                         href="#affiliates"
+                     >
+                         <i class="fa-solid fa-people-group"></i> Affiliates
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link sf-tb-item" 
+                         href="#faq"
+                     >
+                         <i class="fa-solid fa-question"></i> FAQ
+                     </a>
+                 </li>
             </ul>
         </div>
     </div>

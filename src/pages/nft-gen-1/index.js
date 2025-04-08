@@ -7,10 +7,7 @@ import TopBar from "./top_bar";
 import Intro from "./intro";
 import ParadigmShift from "./paradigm_shift";
 import Spots from "./spots";
-import TechnologyPreview from "./technology_preview";
 import Plans from "./plans";
-import Roadmap from "./roadmap";
-import Team from "./team";
 import Faq from './faq';
 import Footer from './footer';
 
@@ -21,11 +18,8 @@ const Home = () => {
     <TopBar />
     <Intro />
     <ParadigmShift />
-    <Spots />
-    <TechnologyPreview />
     <Plans />
-    <Roadmap />
-    <Team />
+    <Spots />
     <Faq />    
   </div>
   <div class="fuid-container" style={{"border-top": "solid #8D0404 6px"}}>

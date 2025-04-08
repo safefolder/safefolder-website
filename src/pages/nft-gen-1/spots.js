@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 
 const Spots = () => {
-    return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
+    return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
     <div class="container">
 
     
@@ -174,34 +174,33 @@ const Spots = () => {
     <p>We would be grateful if you would support us economically. Your help would allow us to continue working to make the Internet safer 
         for you and others.</p>
 
-    <p>Enrolling as a Bootstrapper allows you to have a <b>shared revenue maximum of up to $336 per year (premium account) for a lifetime </b> 
-    per user account. You can choose to purchase one user, 10 users, or a pack of 25 users.</p>
-    
-    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">1 User</h5>
-            <span style={{"font-size": "1.7rem"}}>$97.00</span>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">5 Users</h5>
-            <span style={{"font-size": "1.7rem"}}>$397.00<br/> ($79 per user)</span>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-            <h5 class="card-title">25 Users</h5>
-            <span style={{"font-size": "1.7rem"}}>$1,700<br/> ($68 per user)</span>
-            </div>
-        </div>
-    </div>
+        <p>Considering if you rent your spot as a Pro user at $20 per month (middle plan), with the <b>3x1</b> you not only get 
+        one, but three spots, all with a <b>70% share revenue for a lifetime</b>. These would be your income per user:</p>
+     
+    <p class="text-center" style={{"font-weight": "300", "font-size": "150%"}}>YOUR INCOME BY RENTING</p>
 
-    <p>This price point provides a good return on investment (ROI) for the number of users you desire.</p>
-
-    <p>You will be able to purchase a spot from NFT marketplaces like OpenSea. Signup for the newsletter to receive updates on our 
-        next fundraising of spots.</p>
+     <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
+         <div class="card">
+             <div class="card-body">
+             <h5 class="card-title text-center">1 Year</h5>
+             <span style={{"font-size": "1.7rem"}}>$504.00</span>
+             </div>
+         </div>
+         <div class="card">
+             <div class="card-body">
+             <h5 class="card-title text-center">3 Years</h5>
+             <span style={{"font-size": "1.7rem"}}>$1,512.00<br/></span>
+             </div>
+         </div>
+         <div class="card">
+             <div class="card-body">
+             <h5 class="card-title text-center">5 Years</h5>
+             <span style={{"font-size": "1.7rem"}}>$2,520.00<br/></span>
+             </div>
+         </div>
+     </div>
+ 
+     <p>Your support helps us making the Internet a safer place for all.</p>
 
     <StaticImage 
         src="../../images/bootstrapper_1_spot_v1.webp" 
@@ -210,29 +209,19 @@ const Spots = () => {
         style={{"max-width": "500px"}}
     />
 
-<p class="mt-3" style={{"font-size": "70%", "color": "#838282"}}><b>Disclaimer:</b> Investing in products in development has associated risks of possible delays and problems. This site offers 
-    detailed information on what is left to build, and you can also check our data repository at GitHub for more details on our software. 
-    We will do our best to deliver and move into production at the end of 2026. We will publish more detailed dates in the first quarter 
-    of 2026. If you purchase now and do not want to continue later, you can exit this Bootstrapping support by selling your NFT in the 
-    NFT marketplaces.</p>
-
-    <p style={{"font-size": "70%", "color": "#838282"}}>The shared revenue in our affiliate network is applied when you have an active subscription with a user. If the user cancels the 
-        subscription, there will be some time of wait until you make a sell for your spot through your promotion activities.
-        By purchasing at OpenSea you agree to our Spot purchase agreement.
-    </p>
-
-    <p style={{"font-size": "70%", "color": "#838282"}}>
-        By purchasing at OpenSea you agree to our Spot purchase agreement.
-    </p>
+<br/>
+    <p class="text-center" style={{"font-size": "100%", "color": "#838282"}}>
+         By purchasing at OpenSea you agree to our Spot purchase agreement.
+     </p>
 
     <div class="mx-auto text-center mt-3">
         <Button 
+            target="legal" 
             color="gray" 
             variant="contained" 
             href="https://safefolder.app/legal/spot-purchase/" 
             sx={{'height': '3.5rem', 'mt': 2, 'mb': 3, 'border-radius': 30, 'pl': 5, 'pr': 5}} 
             startIcon={<PeopleOutlineIcon />}
-            target="_blank"
         >
             Spot Purchase Agreement
         </Button>

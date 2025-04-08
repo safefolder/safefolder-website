@@ -15,6 +15,10 @@ const Plans = () => {
         class="img-fluid rounded d-block center-block sf-section-img" 
     />
 
+    <p>
+        These are the expected plans and prices when we release our first version:
+    </p>
+
     <div class="card-group" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
         <div class="card">
             <div class="card-body">
@@ -85,7 +89,8 @@ const Plans = () => {
         </div>        
     </div>
 
-    <p><b>Note</b>: Prices and features are subject to change as we move the application to the first release.</p>
+    <p><b>Note</b>: Prices and features are subject to change as we move the application to the first release.
+     We don't offer yearly subscriptions. You would need to purchase an Spot in that case for enjoying savings.</p>
 
     </div></div>
 }

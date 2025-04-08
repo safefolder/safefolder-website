@@ -50,7 +50,7 @@ const Faq = () => {
             </h2>
             <div id="collapseQ5" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
             <div class="accordion-body">
-                We expect to have a clear picture of release dates during 2026, once all 2025 work related to the backend
+                We expect to have a clear picture of release dates during 2026 once all 2025 work related to the backend
                 has been completed. We will then review the back-end software left to do and estimate release dates for the
                 testnet and beta releases, pre-releases, and the final release and what features will be included.
             </div>

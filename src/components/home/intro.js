@@ -88,6 +88,9 @@ export const Intro = () => {
 return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
 
 <a id="top" />
+
+<h1 style={{"display": "none"}}>Safefolder - Secure Your Data Your Way</h1>
+
 <h2 class="text-center">What is Safefolder?</h2>
 
 <h3 class="text-center mx-auto pt-3 pb-3" style={{"font-weight": "300", "max-width": "700px"}}>
@@ -149,6 +152,17 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
       </p>
   </div>
 </div>
+
+<MailchimpSubscribe
+           url={mc_form_url}
+           render={({ subscribe, status, message }) => (
+             <EmailSubscribeForm
+               status={status}
+               message={message}
+               onValidated={formData => subscribe(formData)}
+             />
+           )}
+         />
 
 </div>
 }
