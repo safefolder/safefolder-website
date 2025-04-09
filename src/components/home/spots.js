@@ -204,7 +204,7 @@ export const Spots = () => {
      </div>
  
      <p class="text-center" style={{"font-weight": "300", "font-size": "150%"}}>MONTHLY SUBSCRIPTION COST <br/>
-        (USING AN SPOT WHEN YOU DO NOT OWN ONE)</p>
+        <span style={{"font-weight": "300", "font-size": "70%"}}>(RENTING AN SPOT WHEN YOU DO NOT OWN ONE)</span></p>
 
     <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
         <div class="card">
