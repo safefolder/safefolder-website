@@ -74,23 +74,8 @@ const Faq = () => {
 
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ7" aria-expanded="false" aria-controls="collapseQ7">
-                5. Will you provide a solution to websites such as blogs and other sites?
-            </button>
-            </h2>
-            <div id="collapseQ7" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
-            <div class="accordion-body">
-                Public websites like blogs and other web pages without user accounts and user data will not be implemented
-                in Safefolder since the platform cannot provide value there. They will continue to operate as they are now, and there
-                are no plans to offer a solution for those.
-            </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ8" aria-expanded="false" aria-controls="collapseQ8">
-                6. How do you solve the situation where a company has a big database and wants to use that in Safefolder?
+                5. How do you solve the situation where a company has a big database and wants to use that in Safefolder?
             </button>
             </h2>
             <div id="collapseQ8" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -105,7 +90,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ9" aria-expanded="false" aria-controls="collapseQ9">
-                7. How do you provide a solution for a company that already has a database and wants to move to Safefolder?
+                6. How do you provide a solution for a company that already has a database and wants to move to Safefolder?
             </button>
             </h2>
             <div id="collapseQ9" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -122,7 +107,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ10" aria-expanded="false" aria-controls="collapseQ10">
-                8. Will I be able to share data in my SafeBox?
+                7. Will I be able to share data in my SafeBox?
             </button>
             </h2>
             <div id="collapseQ10" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -137,7 +122,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ11" aria-expanded="false" aria-controls="collapseQ11">
-                9. What is the fee for purchasing items in the Marketplace?
+                8. What is the fee for purchasing items in the Marketplace?
             </button>
             </h2>
             <div id="collapseQ11" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -150,7 +135,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ12" aria-expanded="false" aria-controls="collapseQ12">
-                10. Is there any cost associated with customer support?
+                9. Is there any cost associated with customer support?
             </button>
             </h2>
             <div id="collapseQ12" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -164,7 +149,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ17" aria-expanded="false" aria-controls="collapseQ17">
-                11. What happens if you change the conditions?
+                10. What happens if you change the conditions?
             </button>
             </h2>
             <div id="collapseQ17" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -178,7 +163,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ19" aria-expanded="false" aria-controls="collapseQ19">
-                12. Are marketplace site apps open source?
+                11. Are marketplace site apps open source?
             </button>
             </h2>
             <div id="collapseQ19" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
@@ -191,7 +176,7 @@ const Faq = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQ20" aria-expanded="false" aria-controls="collapseQ20">
-                13. Is access to the Marketplace open for free users?
+                12. Is access to the Marketplace open for free users?
             </button>
             </h2>
             <div id="collapseQ20" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">

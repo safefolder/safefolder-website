@@ -51,6 +51,15 @@ export const TopBar = () => {
                      <a 
                          onClick={collapseNav}
                          class="nav-link sf-tb-item" 
+                         href="#paradigm"
+                     >
+                         <i class="fa-solid fa-recycle"></i> Paradigm Shift
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link sf-tb-item" 
                          href="#spots"
                      >
                          <i class="fa-solid fa-grip"></i> Spots
@@ -72,6 +81,15 @@ export const TopBar = () => {
                          href="#faq"
                      >
                          <i class="fa-solid fa-question"></i> FAQ
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a 
+                         onClick={collapseNav}
+                         class="nav-link sf-tb-item" 
+                         href="#meeting"
+                     >
+                         <i class="fa-solid fa-people-group"></i> Meeting
                      </a>
                  </li>
             </ul>

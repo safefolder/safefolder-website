@@ -136,7 +136,7 @@ export const Spots = () => {
          You can choose to use the spots you purchase or rent them. You can use a set of spots and rent the rest through the affiliate
          network.</p>
  
-     <p>You <b>promote your spot</b> to quickly find a user and start receiving your shared revenue through your contacts or social 
+     <p>You <b>promote your spot</b> to find a user and start receiving your shared revenue through your contacts or social 
          network accounts.</p>
  
      <p>All phases allow you to use it in any plan or rent it. You can offer any three plans: Basic, Pro, and Premium.</p>
@@ -146,7 +146,7 @@ export const Spots = () => {
              <div class="card-body">
              <h5 class="card-title">Bootstrapper</h5>
              <ul>
-                 <li class="card-text">Your net Income: 70%.</li>
+                 <li class="card-text">Your net Income: <b>70%</b>.</li>
                  <li class="card-text"><b>3x1</b>: One extra spot when in explorer phase, and another one when in rocketeer phase.</li>
                  <li class="card-text">Rent rewards 15% per year (1.5 credits).</li>
              </ul>

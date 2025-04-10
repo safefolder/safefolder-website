@@ -64,6 +64,12 @@
     border-radius: 40px;
 }
 
+.sf-foot-icons button {
+    background: #aaa;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 .sf-foot-copy {
     margin-top: 2rem;
     color: #aaa;

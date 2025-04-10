@@ -143,7 +143,7 @@ const Spots = () => {
             <div class="card-body">
             <h5 class="card-title">Bootstrapper</h5>
             <ul>
-                <li class="card-text">Your net Income: 70%.</li>
+                <li class="card-text">Your net Income: <b>70%</b>.</li>
                 <li class="card-text"><b>3x1</b>: One extra spot when in explorer phase, and another one when in rocketeer phase.</li>
                 <li class="card-text">Rent rewards 15% per year (1.5 credits).</li>
             </ul>

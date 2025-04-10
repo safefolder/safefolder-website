@@ -31,7 +31,8 @@ const Plans = () => {
                 <li class="card-text">Inbox messaging</li>
                 <li class="card-text">Access to Marketplace</li>
                 <li class="card-text">Receive shared files</li>
-                <li class="card-text">•	No limit on local storage</li>
+                <li class="card-text">Spreadsheet-like data, kanban-like boards and other views in multi-purpose folders</li>
+                <li class="card-text">No limit on local storage</li>
             </ul>
             </div>
             <div class="card-footer" style={{"text-align": "center"}}>

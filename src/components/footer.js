@@ -35,31 +35,31 @@ export const Footer = () => {
          </a>
 
          <a href="https://www.linkedin.com/company/safefolder/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa", "margin-left": "15px"}}>
+             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
                  <LinkedinIcon fontSize="inherit" />
              </IconButton>
          </a>
  
          <a href="https://x.com/safefolder_app" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa", "margin-left": "15px"}}>
+             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
                  <XIcon fontSize="inherit" />
              </IconButton>
          </a>
 
          <a href="https://www.facebook.com/people/Safefolder/61574937243959/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa", "margin-left": "15px"}}>
+             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
                  <FacebookIcon fontSize="inherit" />
              </IconButton>
          </a>
 
          <a href="https://www.instagram.com/safefolder.app/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa", "margin-left": "15px"}}>
+             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
                  <InstagramIcon fontSize="inherit" />
              </IconButton>
          </a>
 
          <a href="https://www.tiktok.com/@safefolder.app" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa", "margin-left": "15px"}}>
+             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
                  <TikTokIcon fontSize="inherit" />
              </IconButton>
          </a>
