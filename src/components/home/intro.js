@@ -49,7 +49,7 @@ export const EmailSubscribeForm = ({ status, message, onValidated }) => {
             variant="outlined" 
             inputRef={node => (email = node)} 
             className="sf_form_control"
-            helperText="Subscribe to Newsletter to receive updates"
+            helperText="Subscribe to our Newsletter to receive updates"
           />
           <Button 
             id="subscribe-button"
@@ -131,27 +131,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </div>
 </div>
 
-
-<div class="card mx-auto sf-intro-cards">
-  <div class="card-body">
-    <h5 class="card-title">Mission Statement</h5>
-    <p class="card-text">
-      Provide the tools needed so users have all their data in their devices, and they control who has access to it.
-      </p>
-  </div>
-</div>
-
-<div class="card mx-auto sf-intro-cards">
-  <div class="card-body">
-    <h5 class="card-title">Core Values</h5>
-    <p class="card-text">
-      1. It's my data and I control it.<br />
-      2. Grow through collaboration in a collaborative economy.<br />
-      3. Allow and promote talent through value proposals.<br />
-      4. We get to excellence by experimenting in the market.
-      </p>
-  </div>
-</div>
+<br />
 
 <MailchimpSubscribe
            url={mc_form_url}
