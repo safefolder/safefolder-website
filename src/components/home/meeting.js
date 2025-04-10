@@ -29,6 +29,28 @@ import * as React from "react";
          Schedule a Meeting
      </Button>
      </div>
+
+     <div class="container text-center">
+     <div class="row">
+ 
+     <div class="col sf-team-cols">
+         <div class="card sf-team-card">
+             <StaticImage 
+                 src="../../images/jorge_low_square.png" 
+                 alt="Paradigm Shift" 
+                 class="img-fluid rounded d-block sf-team-img" 
+             />
+         <div class="card-body">
+             <h5 class="card-title text-center">Jorge <a href="https://www.linkedin.com/in/jorgealegre/" target="new"><i class="fa-brands fa-linkedin"></i></a></h5>
+         </div>
+         <div class="card-footer" style={{"text-align": "center"}}>
+             <small class="text-body-secondary">Founder</small>
+         </div>
+ 
+         </div>
+     </div>
+ 
+     </div></div>
  
      </div>
  
