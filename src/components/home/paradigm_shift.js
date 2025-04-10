@@ -64,14 +64,6 @@ export const ParadigmShift = () => {
     <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
         <div class="card">
             <div class="card-body">
-            <h5 class="card-title text-center">IoT Vulnerabilities</h5>
-            <p class="card-text mt-3">Our core data and services are compatible with IoT devices. We scan for
-                vulnerabilities in Rust backed micro-services.
-            </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
             <h5 class="card-title text-center">Phising Attacks</h5>
             <p class="card-text mt-3">We will provide a complete shift for Phising, being one our must-win
                 battles providing technology to completely remove the risks.
@@ -86,18 +78,15 @@ export const ParadigmShift = () => {
             </p>
             </div>
         </div>
-    </div>
-
-    <div class="card-group sf-icon-cards" style={{"margin-top": "2rem", "margin-bottom": "2rem"}}>
         <div class="card">
             <div class="card-body">
-            <h5 class="card-title text-center">Regulatory and Compliance</h5>
+            <h5 class="card-title text-center">Compliance</h5>
             <p class="card-text mt-3">Our platform provides a technology solution to privacy and compliance. We
-                guarantee compliance through technology since we value data ownership for organizations and users.
-                It is your data and you should have complete control over it.
+                guarantee compliance through technology at data ownership.
             </p>
             </div>
         </div>
+
     </div>
 
     <StaticImage 
