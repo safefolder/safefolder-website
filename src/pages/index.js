@@ -6,7 +6,6 @@ import home_css from "../styles/home.css";
 import {TopBar} from "../components/home/top_bar";
 import {Intro} from "../components/home/intro";
 import {ParadigmShift} from "../components/home/paradigm_shift";
-import {Spots} from "../components/home/spots";
 import {Footer} from '../components/footer';
 import Meeting from '../components/home/meeting';
 import SafefolderShare from '../components/share';
@@ -18,7 +17,6 @@ const Home = () => {
     <TopBar />
     <Intro />
     <ParadigmShift />
-    <Spots />
     <Meeting />
   </div>
   <div class="fuid-container" style={{"border-top": "solid #8D0404 6px"}}>

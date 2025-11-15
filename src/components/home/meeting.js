@@ -4,7 +4,7 @@ import * as React from "react";
  import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
  
  const Meeting = () => {
-     return <div class="container-fluid sf-section" style={{"background": "#f5f5f5"}}>
+     return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}>
      <div class="container">
  
      <a id="meeting"><h2 class="text-center">Meet with Us</h2></a>

@@ -60,15 +60,6 @@ export const TopBar = () => {
                      <a 
                          onClick={collapseNav}
                          class="nav-link sf-tb-item" 
-                         href="#spots"
-                     >
-                         <i class="fa-solid fa-grip"></i> Spots
-                     </a>
-                 </li>
-                 <li class="nav-item">
-                     <a 
-                         onClick={collapseNav}
-                         class="nav-link sf-tb-item" 
                          href="#meeting"
                      >
                          <i class="fa-solid fa-people-group"></i> Meeting

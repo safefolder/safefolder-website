@@ -26,11 +26,12 @@ export const ParadigmShift = () => {
     <p>Paradigm shifts provide some evolution when everything changes and new industries start to emerge. They also give investors a 
         strong competitive advantage.</p>
 
-    <p>We believe that Safefolder is a paradigm shift that changes where data is located for users, from remote web servers and remote 
-        database systems to devices near you. This can create a new ecosystem of products and services, being a game changer.</p>
+    <p>We believe that Safefolder is a paradigm shift that changes where data is located for users, from remote scattered web servers and remote 
+        database systems to devices near you, keeping all the data that belongs to you in your own virtual desktop. This can create a new ecosystem 
+        of products and services, being a game changer.</p>
 
     <p>It may enhance the privacy and security of your data by better controlling all the data connected to you. It’s your data, and 
-        you are the boss.</p>
+        you are the boss. Your data your way.</p>
     
     <p>We will provide value in these important Cybersecurity topics:</p>
 
@@ -39,7 +40,7 @@ export const ParadigmShift = () => {
             <div class="card-body">
             <h5 class="card-title text-center">AI and Machine Learning</h5>
             <p class="card-text mt-3">We offer a complete shift on where data is located being much more difficult
-                for AI to hack our platform.
+                for AI to hack our platform. We use AI to generate secure apps in the platform.
             </p>
             </div>
         </div>
@@ -47,14 +48,14 @@ export const ParadigmShift = () => {
             <div class="card-body">
             <h5 class="card-title text-center">Zero Trust Architecture</h5>
             <p class="card-text mt-3">Our permission system grants permissions when needed and linked to the 
-                data and streaming layer of synchronization.
+                data. Our PKI infraestructure will provide trust you can depend on.
             </p>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
             <h5 class="card-title text-center">Cloud Security</h5>
-            <p class="card-text mt-3">Software is mostly executed in the local devices, reducing the security risks
+            <p class="card-text mt-3">Software is executed in your virtual desktop device in the cloud, reducing the security risks
                 of the cloud. The Cloud is used for backup and streaming.
             </p>
             </div>

@@ -94,55 +94,14 @@ return <div class="container-fluid sf-section" style={{"background": "#e5e5e5"}}
 <h2 class="text-center">What is Safefolder?</h2>
 
 <h3 class="text-center mx-auto pt-3 pb-3" style={{"font-weight": "300", "max-width": "700px"}}>
-  Safefolder is a platform for data and applications to address security issues on the Internet.
+  Safefolder is a platform for data and applications to address the security issues on the Internet.
 </h3>
 
-<p class="text-center pt-2">
-  Watch the video below to learn how we will address the top three issues of privacy and security online:
-</p>
-
-<div class="mx-auto text-center mt-5 d-none d-sm-block">
-<div class="embed-responsive embed-responsive-16by9">
-
-<iframe 
-class="embed-responsive-item sf-video-item"
-src="https://www.youtube.com/embed/lr3hjVT6w4E?si=zXx2f6wcX6RUMzXO" 
-title="YouTube video player" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
-
-</div>
-</div>
-
-<div class="mx-auto text-center mt-5 d-xl-none d-lg-none d-md-none d-sm-none">
-<div class="embed-responsive embed-responsive-16by9">
-
-<iframe 
-width="315"
-height="560"
-class="embed-responsive-item"
-src="https://youtube.com/embed/_oBPowlRaBA?si=enfRS1cXLhp03shh" 
-title="YouTube video player" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
-
-</div>
-</div>
-
-<br />
-
-<MailchimpSubscribe
-           url={mc_form_url}
-           render={({ subscribe, status, message }) => (
-             <EmailSubscribeForm
-               status={status}
-               message={message}
-               onValidated={formData => subscribe(formData)}
-             />
-           )}
-         />
+    <div class="fluid-container mx-auto text-center pt-4 pb-2">
+      <span class="sf-foot-line mx-auto text-center" style={{"color": "#000"}}>
+        <i class="fa-solid fa-lock"></i> Your Data Your Way
+      </span>
+    </div>
 
 </div>
 }

@@ -25,46 +25,7 @@ export const Footer = () => {
     <div class="fluid-container mx-auto text-center pt-4 pb-2">
     
     <span class="sf-foot-line">
-        <i class="fa-solid fa-lock"></i> Secure Your Data Your Way</span>
-
-    <p class="sf-foot-icons">
-         <a href="https://www.youtube.com/@safefolder-vid" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <YouTubeIcon fontSize="inherit" />
-             </IconButton>
-         </a>
-
-         <a href="https://www.linkedin.com/company/safefolder/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <LinkedinIcon fontSize="inherit" />
-             </IconButton>
-         </a>
- 
-         <a href="https://x.com/safefolder_app" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <XIcon fontSize="inherit" />
-             </IconButton>
-         </a>
-
-         <a href="https://www.facebook.com/people/Safefolder/61574937243959/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <FacebookIcon fontSize="inherit" />
-             </IconButton>
-         </a>
-
-         <a href="https://www.instagram.com/safefolder.app/" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <InstagramIcon fontSize="inherit" />
-             </IconButton>
-         </a>
-
-         <a href="https://www.tiktok.com/@safefolder.app" target="_blank">
-             <IconButton aria-label="delete" size="large" style={{"background": "#aaa"}}>
-                 <TikTokIcon fontSize="inherit" />
-             </IconButton>
-         </a>
-
-     </p>
+        <i class="fa-solid fa-lock"></i> Your Data Your Way</span>
 
     <p class="sf-foot-copy">
         Copyright &copy; 2025 Jorge Alegre Vilches. All rights reserved.
